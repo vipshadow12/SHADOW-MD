@@ -8,7 +8,7 @@ const { default: makeWASocket, useMultiFileAuthState, WA_DEFAULT_EPHEMERAL, jidN
 
 cmd({
     pattern: "mute",
-    react: "🔖",
+    react: "�",
     desc: "close a group",
     category: "group",
     use: '.mute',
@@ -33,7 +33,7 @@ l(e)
   
 cmd({
     pattern: "unmute",
-    react: "🔖",
+    react: "�",
     desc: "open a group",
     category: "group",
     use: '.unmute',
@@ -57,7 +57,7 @@ l(e)
 
 cmd({
     pattern: "promote",
-    react: "🔖",
+    react: "📍",
     desc: "promote admin to a member",
     category: "group",
     use: '.promote',
@@ -82,7 +82,7 @@ l(e)
 
 cmd({
     pattern: "demote",
-    react: "🔖",
+    react: "📍",
     desc: "demote admin to a member",
     category: "group",
     use: '.demote',
@@ -161,7 +161,7 @@ cmd({
     pattern: "add",
     desc: "Add a member to the group.",
     category: "group",
-    react: "➕",
+    react: "✅",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -253,7 +253,7 @@ if (!user) return reply(mg.nouserforkick);
 await conn.groupParticipantsUpdate(m.chat, [user], "remove");
 reply(mg.userremoved);
 } catch (e) {
-reply('*successful_✓✓*')
+reply('*shadow md kick successful_✓✓*')
 l(e)
 }
 })
