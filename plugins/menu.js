@@ -109,7 +109,7 @@ let dec = `*👋 Hello ${pushname}*
 
 > *𝗣𝗢𝗪𝗘𝗥𝗗 𝗕𝗬 𝗦𝗛𝗔𝗗𝗢𝗪-𝗠𝗗 𝗠𝗨𝗟𝗧𝗜 𝗗𝗘𝗩𝗜𝗖𝗘 𝗪𝗔𝗧𝗦 𝗔𝗣𝗣 𝗕𝗢𝗧 👨🏻‍💻*`
  
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/938f552daff11c7f73378.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/5f0335bebb60421970e8b.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
