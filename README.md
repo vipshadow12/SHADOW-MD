@@ -1,5 +1,9 @@
 
-<h1 align="center">SHADOW-MD 2.1.0</h1>
+<h1 align="center">Hi 👋, I'm SHADOW MD</h1>
+<h3 align="center">A Passionate Developer From Sri Lanka</h3>
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif">
+
+<h1 align="center">SHADOW-MD 2.0.1</h1>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
@@ -10,7 +14,7 @@
 
 #𝗩𝗘𝗥𝗦𝗜𝗢𝗡 2.1.0 𝗨𝗣 𝗗𝗔𝗧𝗘 
 
-➤𝗣𝗜𝗥 𝗖𝗢𝗗 𝗦𝗛𝗔𝗗𝗢𝗪-𝗠𝗗❮❮❮
+❯❯❯ 𝗣𝗜𝗥 𝗖𝗢𝗗 𝗦𝗛𝗔𝗗𝗢𝗪-𝗠𝗗 ❮❮❮
 
 <a href="https://pair-web-public.koyeb.app/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
 
