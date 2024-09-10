@@ -11,6 +11,6 @@ SUDO_NB: process.env.SUDO_NB || "94767910958",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_BIO: process.env.AUTO_BIO || "true",
 MODE: process.env.MODE || "public",
-AUTO_VOICE:"true"
+AUTO_VOICE:"true",
 };
 
