@@ -152,7 +152,12 @@ let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
  }}
+=============autobio==============
+if (config.AUTO_BIO === 'true'){
+               await
+conn.updateProfileStatus(`ꜱʜᴀᴅᴏᴡ-ᴍᴅ 2.0.1📌 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱✓ 𝗧𝗵𝗶𝘀 𝗗𝗲𝘃𝗶𝗰𝗲 𝗜𝘁 𝗛𝗮𝘃𝗲 𝗕𝗲𝗲𝗻 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗙𝗼𝗿  ${runtime(process.uptime())} ⚡💻`).catch(_ => _)
 
+}
 
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
